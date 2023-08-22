@@ -1,0 +1,32 @@
+name: CI/CD for Serverless Nodejs Application with Security, Vulnerability Scan & CloudWatch
+run-name: ${{ github.actor }} is running CI/CD for Serverless Nodejs Application
+
+on:
+  push:
+    branches: [ dev, "*" ]
+
+jobs:
+  pre-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "The job is automatically triggered by a ${{ github.event_name }} event."
+
+  install-dependencies:
+    runs-on: ubuntu-latest
+    needs: pre-deploy
+    steps:
+      - name: Checkout repo code
+        uses: actions/checkout@v3
+      - name: Install dependencies
+        run: npm install
+  
+  unit-testing:
+    runs-on: ubuntu-latest
+    needs: install-dependencies
+    steps:
+      - name: Checkout repo code
+        uses: actions/checkout@v3
+      - name: Install dependencies
+        run: npm install
+      - name: Run unit testing
+        run: npm test
