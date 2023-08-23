@@ -1,0 +1,22 @@
+2023-08-23 15:16:04: INIT_START Runtime Version: nodejs:18.v10	Runtime Version ARN: arn:aws:lambda:ap-southeast-1::runtime:e3aaabf6b92ef8755eaae2f4bfdcb7eb8c4536a5e044900570a42bdba7b869d9
+
+2023-08-23 15:16:04: START RequestId: fddf51d6-ab6b-4795-9e8b-dd347b15ba86 Version: $LATEST
+
+2023-08-23 15:16:04: info: Received event: {"headers":{"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","accept-encoding":"gzip, deflate, br","accept-language":"en-GB,en;q=0.9,zh-SG;q=0.8,zh;q=0.7,en-US;q=0.6,zh-CN;q=0.5","cache-control":"max-age=0","content-length":"0","host":"3oovrkc2sj.execute-api.ap-southeast-1.amazonaws.com","sec-ch-ua":"\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","sec-fetch-dest":"document","sec-fetch-mode":"navigate","sec-fetch-site":"cross-site","sec-fetch-user":"?1","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","x-amzn-trace-id":"Root=1-64e622b4-3c8e4adf1b8cadd871ddf205","x-forwarded-for":"103.252.201.186","x-forwarded-port":"443","x-forwarded-proto":"https"},"isBase64Encoded":false,"rawPath":"/","rawQueryString":"","requestContext":{"accountId":"255945442255","apiId":"3oovrkc2sj","domainName":"3oovrkc2sj.execute-api.ap-southeast-1.amazonaws.com","domainPrefix":"3oovrkc2sj","http":{"method":"GET","path":"/","protocol":"HTTP/1.1","sourceIp":"103.252.201.186","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"},"requestId":"KHpcLgGESQ0EJiw=","routeKey":"GET /","stage":"$default","time":"23/Aug/2023:15:16:04 +0000","timeEpoch":1692803764014},"routeKey":"GET /","service":"serverless-nodejs","version":"2.0"}
+
+2023-08-23 15:16:04: info: Greeting generated: Good evening! The time now is 23-08-2023 23:16:04Z {"service":"serverless-nodejs"}
+
+2023-08-23 15:16:04: END RequestId: fddf51d6-ab6b-4795-9e8b-dd347b15ba86
+
+2023-08-23 15:16:04: REPORT RequestId: fddf51d6-ab6b-4795-9e8b-dd347b15ba86	Duration: 44.16 ms	Billed Duration: 45 ms	Memory Size: 1024 MB	Max Memory Used: 100 MB	Init Duration: 545.64 ms	
+
+2023-08-23 15:16:06: START RequestId: 7e12f680-7be0-4a34-bddb-7148f88a7312 Version: $LATEST
+
+2023-08-23 15:16:06: info: Received event: {"headers":{"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","accept-encoding":"gzip, deflate, br","accept-language":"en-GB,en;q=0.9,zh-SG;q=0.8,zh;q=0.7,en-US;q=0.6,zh-CN;q=0.5","cache-control":"max-age=0","content-length":"0","host":"3oovrkc2sj.execute-api.ap-southeast-1.amazonaws.com","sec-ch-ua":"\"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"Google Chrome\";v=\"116\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","sec-fetch-dest":"document","sec-fetch-mode":"navigate","sec-fetch-site":"cross-site","sec-fetch-user":"?1","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36","x-amzn-trace-id":"Root=1-64e622b6-3cb0e823578f5cfe40235cb5","x-forwarded-for":"103.252.201.186","x-forwarded-port":"443","x-forwarded-proto":"https"},"isBase64Encoded":false,"rawPath":"/","rawQueryString":"","requestContext":{"accountId":"255945442255","apiId":"3oovrkc2sj","domainName":"3oovrkc2sj.execute-api.ap-southeast-1.amazonaws.com","domainPrefix":"3oovrkc2sj","http":{"method":"GET","path":"/","protocol":"HTTP/1.1","sourceIp":"103.252.201.186","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"},"requestId":"KHpcigtIyQ0EJMw=","routeKey":"GET /","stage":"$default","time":"23/Aug/2023:15:16:06 +0000","timeEpoch":1692803766347},"routeKey":"GET /","service":"serverless-nodejs","version":"2.0"}
+
+2023-08-23 15:16:06: info: Greeting generated: Good evening! The time now is 23-08-2023 23:16:06Z {"service":"serverless-nodejs"}
+
+2023-08-23 15:16:06: END RequestId: 7e12f680-7be0-4a34-bddb-7148f88a7312
+
+2023-08-23 15:16:06: REPORT RequestId: 7e12f680-7be0-4a34-bddb-7148f88a7312	Duration: 2.97 ms	Billed Duration: 3 ms	Memory Size: 1024 MB	Max Memory Used: 100 MB	
+
