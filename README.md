@@ -387,7 +387,7 @@ aws logs get-log-events --log-group-name /aws/lambda/wengsiong-serverless-nodejs
 
 1. Alternatively, run the following command to export the logging information to a file.
 ```bash
-aws logs get-log-events --log-group-name /aws/lambda/wengsiong-serverless-nodejs-api-dev-greeting --log-stream-name '2023/08/23/[$LATEST]810e9c5a48d542f4980dd69b8e7d90eb' | jq -r '.events[] | "\( (.timestamp / 1000 | strftime("%Y-%m-%d %H:%M:%S")) ): \(.message)"' > logs.txt
+aws logs get-log-events --log-group-name /aws/lambda/wengsiong-serverless-nodejs-api-dev-greeting --log-stream-name '2023/08/23/[$LATEST]810e9c5a48d542f4980dd69b8e7d90eb' | jq -r '.events[] | "\( ((.timestamp / 1000) + (8 * 3600) | strftime("%Y-%m-%d %H:%M:%S")) ): \(.message)"' > logs.txt
 ```
 - The `jq` command is used to format the output of the `aws logs get-log-events` command, extracting the timestamp and message. The Unix timestamp is originally in milliseconds and formatted to `YYYY-MM-DD HH:MM:SS`. The formatted output is then redirected to a file named `logs.txt`. 
 
